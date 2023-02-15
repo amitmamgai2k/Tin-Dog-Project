@@ -1,0 +1,113 @@
+
+#title{
+  background-color: #ff4c68;
+}
+h1{
+  font-family:  Montserrat-Black;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.nav-brand{
+  color: black;
+}
+.rotate {
+    transform: rotate(25deg);
+    height:500px;
+    width:20%;
+    position:absolute;
+
+
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.btn btn-dark btn-lg{
+  margin: 5% 3% 5% 0%;
+}
+.feature-box{
+  text-align: center;
+  font-family: math;
+}
+.fa-regular , .fa-solid {
+  color: #ff4c68;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.fa-regular:hover , .fa-solid:hover{
+  color:#F2E394;
+}
+
+
+#features{
+  padding:7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+#testimonials{
+
+  text-align: center;
+  background-color:  #ff4c68;
+color: #fff;
+font-family:serif;
+}
+#press{
+  background-color: #ff4c68;
+  text-align:center;
+  padding-bottom: 2%;
+
+}
+img{
+  width:10%;
+}
+.carousel-item{
+      padding: 7% 15%;
+  }
+.carousel-control-prev, .carousel-control-next{
+  width: 30px;
+  border: 5px
+}
+#pricing{
+  padding:7% 15%;
+  text-align:center;
+
+}
+.card{
+  margin:2%;
+  background-color:#ff4c68 ;
+  text-align: center;
+
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .rotate{
+    position:static;
+    transform:rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  font-family: Ubuntu;
+  color: white;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+#footer{
+  text-align: center;
+  color:white;
+  padding: 7% 15%;
+  color: black;
+}
+.fa-brands,.fa-light{
+  margin: 5%;
+  text-align: center;
+}
